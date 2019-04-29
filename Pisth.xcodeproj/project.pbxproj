@@ -74,7 +74,8 @@
 		3AFDD90F1FF140FE0061677B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFDD90D1FF140FE0061677B /* LaunchScreen.storyboard */; };
 		3AFDD9171FF147860061677B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AFDD9161FF147860061677B /* Assets.xcassets */; };
 		3AFDD91B1FF14C1F0061677B /* BookmarksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFDD91A1FF14C1F0061677B /* BookmarksTableViewController.swift */; };
-		6F93DC82220D23DAAF3DFA0B /* Pods_PisthTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF8B30054CA9184DD4879EA /* Pods_PisthTests.framework */; };
+		A2B3B0C74B9AA75AC88BB224 /* Pods_Pisth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F6636909A12BBB78A866A0 /* Pods_Pisth.framework */; };
+		C3CAE623BDD128A81DD1AD59 /* Pods_PisthTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08E7C859FED63289D7A88B13 /* Pods_PisthTests.framework */; };
 		C911BED62189E1C700B5FCE5 /* Snippets.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C911BED82189E1C700B5FCE5 /* Snippets.storyboard */; };
 		C911BEE32189EC2B00B5FCE5 /* ViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C911BEE22189EC2B00B5FCE5 /* ViewControllerFactory.swift */; };
 		C911BEE52189ED6100B5FCE5 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C911BEE42189ED6100B5FCE5 /* Storyboard.swift */; };
@@ -120,7 +121,6 @@
 		C9F2673222257A1E0061F788 /* SSHKeyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F2673122257A1E0061F788 /* SSHKeyTableViewController.swift */; };
 		C9F2673322257C680061F788 /* SSHKey.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F2673522257C680061F788 /* SSHKey.storyboard */; };
 		C9FF16712104F5330071AD22 /* PanelContentDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FF16702104F5330071AD22 /* PanelContentDelegate.swift */; };
-		E6019D50D0EABA90DF0A9142 /* Pods_Pisth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F5574F1BD4D24D32463896F /* Pods_Pisth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -179,7 +179,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2DF8DF9A14B988FB35F7501F /* Pods-PisthTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PisthTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PisthTests/Pods-PisthTests.debug.xcconfig"; sourceTree = "<group>"; };
+		08E7C859FED63289D7A88B13 /* Pods_PisthTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PisthTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D2CE005F574EF66DB932F3 /* Pods-PisthTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PisthTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PisthTests/Pods-PisthTests.release.xcconfig"; sourceTree = "<group>"; };
+		1F049E8FDFA120164404B5B3 /* Pods-PisthTests.shell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PisthTests.shell.xcconfig"; path = "Pods/Target Support Files/Pods-PisthTests/Pods-PisthTests.shell.xcconfig"; sourceTree = "<group>"; };
+		36F6636909A12BBB78A866A0 /* Pods_Pisth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pisth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A0964F220CC209F006D5B4C /* Content.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Content.storyboard; sourceTree = "<group>"; };
 		3A0964F620CC3BA6006D5B4C /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		3A0E2920200A6BD8006FFF81 /* SourceControlTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceControlTableViewController.swift; sourceTree = "<group>"; };
@@ -248,14 +251,9 @@
 		3AFDD9101FF140FE0061677B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AFDD9161FF147860061677B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AFDD91A1FF14C1F0061677B /* BookmarksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksTableViewController.swift; sourceTree = "<group>"; };
-		4CDE4CB2B9469926FC8B740F /* Pods-PisthTests.shell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PisthTests.shell.xcconfig"; path = "Pods/Target Support Files/Pods-PisthTests/Pods-PisthTests.shell.xcconfig"; sourceTree = "<group>"; };
-		59BC621133CB24CE980F54C4 /* Pods-Pisth.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pisth.beta.xcconfig"; path = "Pods/Target Support Files/Pods-Pisth/Pods-Pisth.beta.xcconfig"; sourceTree = "<group>"; };
-		5EC5CE12D6F9D8363242F65F /* Pods_PisthUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PisthUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A766C1173F661A3FD11B72D /* Pods-PisthTests.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PisthTests.beta.xcconfig"; path = "Pods/Target Support Files/Pods-PisthTests/Pods-PisthTests.beta.xcconfig"; sourceTree = "<group>"; };
-		6BA0670A7C54F8E646A758B5 /* Pods_Pisth_Mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pisth_Mac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		987F0B78640D7B7DED10C32C /* Pods-Pisth.shell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pisth.shell.xcconfig"; path = "Pods/Target Support Files/Pods-Pisth/Pods-Pisth.shell.xcconfig"; sourceTree = "<group>"; };
-		9F5574F1BD4D24D32463896F /* Pods_Pisth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pisth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAF8B30054CA9184DD4879EA /* Pods_PisthTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PisthTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64954CB2D83334F83062FCCC /* Pods-Pisth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pisth.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pisth/Pods-Pisth.release.xcconfig"; sourceTree = "<group>"; };
+		7644C65DD1569298E5823982 /* Pods-Pisth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pisth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pisth/Pods-Pisth.debug.xcconfig"; sourceTree = "<group>"; };
+		A1F50375044C2DA70B128D74 /* Pods-PisthTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PisthTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PisthTests/Pods-PisthTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C911BED72189E1C700B5FCE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Snippets.storyboard; sourceTree = "<group>"; };
 		C911BEDD2189E1D400B5FCE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Snippets.strings; sourceTree = "<group>"; };
 		C911BEDF2189E1D700B5FCE5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Snippets.strings; sourceTree = "<group>"; };
@@ -337,15 +335,15 @@
 		C9E539792131DD03005D8BA9 /* WhatsNew.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = WhatsNew.xcassets; sourceTree = "<group>"; };
 		C9ED9EBF213C912800C62793 /* UIGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIGestureRecognizer.swift; sourceTree = "<group>"; };
 		C9EE202520F1847B00C8E302 /* FileInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileInfoViewController.swift; sourceTree = "<group>"; };
-		C9F2673122257A1E0061F788 /* SSHKeyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SSHKeyTableViewController.swift; path = /Users/adrianlabbe/Desktop/Pisth/Pisth/ViewControllers/Classes/SSHKeyTableViewController.swift; sourceTree = "<absolute>"; };
+		C9F2673122257A1E0061F788 /* SSHKeyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SSHKeyTableViewController.swift; path = /Users/michaeltoth/Documents/work/Pisth/Pisth/ViewControllers/Classes/SSHKeyTableViewController.swift; sourceTree = "<absolute>"; };
 		C9F2673422257C680061F788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SSHKey.storyboard; sourceTree = "<group>"; };
 		C9F2673722257C700061F788 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SSHKey.strings; sourceTree = "<group>"; };
 		C9F2673922257C740061F788 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/SSHKey.strings; sourceTree = "<group>"; };
 		C9F2673B22257C780061F788 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/SSHKey.strings; sourceTree = "<group>"; };
 		C9FF16702104F5330071AD22 /* PanelContentDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelContentDelegate.swift; sourceTree = "<group>"; };
-		D751325DE74D3465BA4BA8DD /* Pods-Pisth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pisth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pisth/Pods-Pisth.debug.xcconfig"; sourceTree = "<group>"; };
-		D7D1701FA780948313EFDD2E /* Pods-Pisth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pisth.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pisth/Pods-Pisth.release.xcconfig"; sourceTree = "<group>"; };
-		E363245A2BEE636A38B47B6A /* Pods-PisthTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PisthTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PisthTests/Pods-PisthTests.release.xcconfig"; sourceTree = "<group>"; };
+		CFD14E07F7C79274A38CAD5E /* Pods-Pisth.shell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pisth.shell.xcconfig"; path = "Pods/Target Support Files/Pods-Pisth/Pods-Pisth.shell.xcconfig"; sourceTree = "<group>"; };
+		DB6A695B9FEDAE189AEF4030 /* Pods-Pisth.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pisth.beta.xcconfig"; path = "Pods/Target Support Files/Pods-Pisth/Pods-Pisth.beta.xcconfig"; sourceTree = "<group>"; };
+		F1506B83BAED78E45A98AABB /* Pods-PisthTests.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PisthTests.beta.xcconfig"; path = "Pods/Target Support Files/Pods-PisthTests/Pods-PisthTests.beta.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -356,8 +354,8 @@
 				3ACF9B772041BB4C006C3218 /* Pisth_Shared.framework in Frameworks */,
 				C91DD1DF216E743F0001B21B /* InputAssistant.framework in Frameworks */,
 				3A2C2D47208156F8002B8230 /* Pisth_API.framework in Frameworks */,
-				E6019D50D0EABA90DF0A9142 /* Pods_Pisth.framework in Frameworks */,
 				3ACF9BEC2041C4AC006C3218 /* Pisth_Terminal.framework in Frameworks */,
+				A2B3B0C74B9AA75AC88BB224 /* Pods_Pisth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,24 +363,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F93DC82220D23DAAF3DFA0B /* Pods_PisthTests.framework in Frameworks */,
+				C3CAE623BDD128A81DD1AD59 /* Pods_PisthTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2A2C0BF266D722E068E3424D /* Pods */ = {
+		2A370967FC4640A021CBB2ED /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D751325DE74D3465BA4BA8DD /* Pods-Pisth.debug.xcconfig */,
-				D7D1701FA780948313EFDD2E /* Pods-Pisth.release.xcconfig */,
-				59BC621133CB24CE980F54C4 /* Pods-Pisth.beta.xcconfig */,
-				987F0B78640D7B7DED10C32C /* Pods-Pisth.shell.xcconfig */,
-				2DF8DF9A14B988FB35F7501F /* Pods-PisthTests.debug.xcconfig */,
-				E363245A2BEE636A38B47B6A /* Pods-PisthTests.release.xcconfig */,
-				4CDE4CB2B9469926FC8B740F /* Pods-PisthTests.shell.xcconfig */,
-				6A766C1173F661A3FD11B72D /* Pods-PisthTests.beta.xcconfig */,
+				7644C65DD1569298E5823982 /* Pods-Pisth.debug.xcconfig */,
+				64954CB2D83334F83062FCCC /* Pods-Pisth.release.xcconfig */,
+				CFD14E07F7C79274A38CAD5E /* Pods-Pisth.shell.xcconfig */,
+				DB6A695B9FEDAE189AEF4030 /* Pods-Pisth.beta.xcconfig */,
+				A1F50375044C2DA70B128D74 /* Pods-PisthTests.debug.xcconfig */,
+				18D2CE005F574EF66DB932F3 /* Pods-PisthTests.release.xcconfig */,
+				1F049E8FDFA120164404B5B3 /* Pods-PisthTests.shell.xcconfig */,
+				F1506B83BAED78E45A98AABB /* Pods-PisthTests.beta.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -592,8 +590,8 @@
 				3AFDD9031FF140FE0061677B /* Pisth */,
 				C9E3919121C0345E00F16622 /* PisthTests */,
 				3AFDD9021FF140FE0061677B /* Products */,
-				2A2C0BF266D722E068E3424D /* Pods */,
 				56249940C7FBF904B64CFA50 /* Frameworks */,
+				2A370967FC4640A021CBB2ED /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -626,10 +624,8 @@
 			children = (
 				C9B205B720D6CBBF00045F20 /* NMSSH.framework */,
 				C9CB27F520D5C23500290DBE /* Pisth_Terminal.framework */,
-				9F5574F1BD4D24D32463896F /* Pods_Pisth.framework */,
-				6BA0670A7C54F8E646A758B5 /* Pods_Pisth_Mac.framework */,
-				AAF8B30054CA9184DD4879EA /* Pods_PisthTests.framework */,
-				5EC5CE12D6F9D8363242F65F /* Pods_PisthUITests.framework */,
+				36F6636909A12BBB78A866A0 /* Pods_Pisth.framework */,
+				08E7C859FED63289D7A88B13 /* Pods_PisthTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -669,12 +665,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3AFDD9131FF140FE0061677B /* Build configuration list for PBXNativeTarget "Pisth" */;
 			buildPhases = (
-				4608AF53B420636B3889091F /* [CP] Check Pods Manifest.lock */,
+				A70CA61B294D6A62774C94AF /* [CP] Check Pods Manifest.lock */,
 				3AFDD8FD1FF140FE0061677B /* Sources */,
 				3AFDD8FE1FF140FE0061677B /* Frameworks */,
 				3AFDD8FF1FF140FE0061677B /* Resources */,
-				F21CA456D2169C5D27312609 /* [CP] Embed Pods Frameworks */,
 				3ACF9B0A2041B300006C3218 /* Embed Frameworks */,
+				8FEB078D9921CC086C024E45 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -690,11 +686,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9E3919721C0345E00F16622 /* Build configuration list for PBXNativeTarget "PisthTests" */;
 			buildPhases = (
-				7480907138EFFD07052FA7B1 /* [CP] Check Pods Manifest.lock */,
+				8526436791009799892ADEE3 /* [CP] Check Pods Manifest.lock */,
 				C9E3918C21C0345E00F16622 /* Sources */,
 				C9E3918D21C0345E00F16622 /* Frameworks */,
 				C9E3918E21C0345E00F16622 /* Resources */,
-				2A72695E90F23FA8CB5BAE24 /* [CP] Embed Pods Frameworks */,
+				80C4CB5DF076B4E1BAAEF263 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -847,7 +843,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2A72695E90F23FA8CB5BAE24 /* [CP] Embed Pods Frameworks */ = {
+		80C4CB5DF076B4E1BAAEF263 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -856,17 +852,17 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-PisthTests/Pods-PisthTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ActionSheetPicker-3.0-iOS12.1/ActionSheetPicker_3_0.framework",
-				"${BUILT_PRODUCTS_DIR}/BiometricAuthentication-iOS12.1/BiometricAuthentication.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleUtilities-iOS12.1/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/Highlightr-iOS12.1/Highlightr.framework",
-				"${BUILT_PRODUCTS_DIR}/NMSSH-iOS12.1/NMSSH.framework",
-				"${BUILT_PRODUCTS_DIR}/ObjectUserDefaults-iOS12.1/ObjectUserDefaults.framework",
-				"${BUILT_PRODUCTS_DIR}/PanelKit-iOS12.1/PanelKit.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper-iOS12.1/SwiftKeychainWrapper.framework",
-				"${BUILT_PRODUCTS_DIR}/WhatsNew-iOS12.1/WhatsNew.framework",
-				"${BUILT_PRODUCTS_DIR}/Zip-iOS12.1/Zip.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb-iOS12.1/nanopb.framework",
+				"${BUILT_PRODUCTS_DIR}/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework",
+				"${BUILT_PRODUCTS_DIR}/BiometricAuthentication/BiometricAuthentication.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Highlightr/Highlightr.framework",
+				"${BUILT_PRODUCTS_DIR}/NMSSH/NMSSH.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectUserDefaults/ObjectUserDefaults.framework",
+				"${BUILT_PRODUCTS_DIR}/PanelKit/PanelKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+				"${BUILT_PRODUCTS_DIR}/WhatsNew/WhatsNew.framework",
+				"${BUILT_PRODUCTS_DIR}/Zip/Zip.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -889,25 +885,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PisthTests/Pods-PisthTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4608AF53B420636B3889091F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Pisth-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7480907138EFFD07052FA7B1 /* [CP] Check Pods Manifest.lock */ = {
+		8526436791009799892ADEE3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -929,26 +907,30 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F21CA456D2169C5D27312609 /* [CP] Embed Pods Frameworks */ = {
+		8FEB078D9921CC086C024E45 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Pisth/Pods-Pisth-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ActionSheetPicker-3.0-iOS10.0/ActionSheetPicker_3_0.framework",
-				"${BUILT_PRODUCTS_DIR}/BiometricAuthentication-iOS10.0/BiometricAuthentication.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleUtilities-iOS10.0/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/Highlightr-iOS10.0/Highlightr.framework",
-				"${BUILT_PRODUCTS_DIR}/NMSSH-iOS10.0/NMSSH.framework",
-				"${BUILT_PRODUCTS_DIR}/ObjectUserDefaults-iOS10.0/ObjectUserDefaults.framework",
-				"${BUILT_PRODUCTS_DIR}/PanelKit-iOS10.0/PanelKit.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper-iOS10.0/SwiftKeychainWrapper.framework",
-				"${BUILT_PRODUCTS_DIR}/WhatsNew-iOS10.0/WhatsNew.framework",
-				"${BUILT_PRODUCTS_DIR}/Zip-iOS10.0/Zip.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb-iOS10.0/nanopb.framework",
+				"${BUILT_PRODUCTS_DIR}/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework",
+				"${BUILT_PRODUCTS_DIR}/BiometricAuthentication/BiometricAuthentication.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Highlightr/Highlightr.framework",
+				"${BUILT_PRODUCTS_DIR}/NMSSH/NMSSH.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectUserDefaults/ObjectUserDefaults.framework",
+				"${BUILT_PRODUCTS_DIR}/PanelKit/PanelKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+				"${BUILT_PRODUCTS_DIR}/WhatsNew/WhatsNew.framework",
+				"${BUILT_PRODUCTS_DIR}/Zip/Zip.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ActionSheetPicker_3_0.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BiometricAuthentication.framework",
@@ -965,6 +947,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pisth/Pods-Pisth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A70CA61B294D6A62774C94AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pisth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1218,6 +1222,7 @@
 		3AFDD9111FF140FE0061677B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1278,6 +1283,7 @@
 		3AFDD9121FF140FE0061677B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1330,9 +1336,8 @@
 		};
 		3AFDD9141FF140FE0061677B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D751325DE74D3465BA4BA8DD /* Pods-Pisth.debug.xcconfig */;
+			baseConfigurationReference = 7644C65DD1569298E5823982 /* Pods-Pisth.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				APP_ICON_SUFFIX = .dev;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon$(APP_ICON_SUFFIX)";
 				BUNDLE_ID_SUFFIX = .dev;
@@ -1340,7 +1345,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = Y96PL6G497;
+				DEVELOPMENT_TEAM = 936G47T7WK;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1351,7 +1356,7 @@
 				IS_BETA = "";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = ch.marcela.ada.Pisth;
+				PRODUCT_BUNDLE_IDENTIFIER = com.virtualpianist.player;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
@@ -1362,16 +1367,15 @@
 		};
 		3AFDD9151FF140FE0061677B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7D1701FA780948313EFDD2E /* Pods-Pisth.release.xcconfig */;
+			baseConfigurationReference = 64954CB2D83334F83062FCCC /* Pods-Pisth.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				APP_ICON_SUFFIX = "";
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon$(APP_ICON_SUFFIX)";
 				BUNDLE_ID_SUFFIX = "";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Y96PL6G497;
+				DEVELOPMENT_TEAM = 936G47T7WK;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1382,7 +1386,7 @@
 				IS_BETA = "";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = ch.marcela.ada.Pisth;
+				PRODUCT_BUNDLE_IDENTIFIER = com.virtualpianist.player;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
@@ -1394,6 +1398,7 @@
 		C959168B2113A1850073BCCE /* Beta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1446,16 +1451,15 @@
 		};
 		C959168C2113A1850073BCCE /* Beta */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59BC621133CB24CE980F54C4 /* Pods-Pisth.beta.xcconfig */;
+			baseConfigurationReference = DB6A695B9FEDAE189AEF4030 /* Pods-Pisth.beta.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				APP_ICON_SUFFIX = .beta;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon$(APP_ICON_SUFFIX)";
 				BUNDLE_ID_SUFFIX = "";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Y96PL6G497;
+				DEVELOPMENT_TEAM = 936G47T7WK;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1472,7 +1476,7 @@
 				IS_BETA = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = ch.marcela.ada.Pisth;
+				PRODUCT_BUNDLE_IDENTIFIER = com.virtualpianist.player;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
@@ -1484,6 +1488,7 @@
 		C9D6EC672132FEDA00A81D88 /* Shell */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1536,16 +1541,15 @@
 		};
 		C9D6EC682132FEDA00A81D88 /* Shell */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 987F0B78640D7B7DED10C32C /* Pods-Pisth.shell.xcconfig */;
+			baseConfigurationReference = CFD14E07F7C79274A38CAD5E /* Pods-Pisth.shell.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				APP_ICON_SUFFIX = .shell;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon$(APP_ICON_SUFFIX)";
 				BUNDLE_ID_SUFFIX = .shell;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Y96PL6G497;
+				DEVELOPMENT_TEAM = 936G47T7WK;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1556,7 +1560,7 @@
 				IS_BETA = "";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = ch.marcela.ada.Pisth;
+				PRODUCT_BUNDLE_IDENTIFIER = com.virtualpianist.player;
 				PRODUCT_NAME = "Pisth Shell";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
@@ -1567,7 +1571,7 @@
 		};
 		C9E3919821C0345E00F16622 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DF8DF9A14B988FB35F7501F /* Pods-PisthTests.debug.xcconfig */;
+			baseConfigurationReference = A1F50375044C2DA70B128D74 /* Pods-PisthTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -1588,7 +1592,7 @@
 		};
 		C9E3919921C0345E00F16622 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E363245A2BEE636A38B47B6A /* Pods-PisthTests.release.xcconfig */;
+			baseConfigurationReference = 18D2CE005F574EF66DB932F3 /* Pods-PisthTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -1608,7 +1612,7 @@
 		};
 		C9E3919A21C0345E00F16622 /* Shell */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4CDE4CB2B9469926FC8B740F /* Pods-PisthTests.shell.xcconfig */;
+			baseConfigurationReference = 1F049E8FDFA120164404B5B3 /* Pods-PisthTests.shell.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -1628,7 +1632,7 @@
 		};
 		C9E3919B21C0345E00F16622 /* Beta */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A766C1173F661A3FD11B72D /* Pods-PisthTests.beta.xcconfig */;
+			baseConfigurationReference = F1506B83BAED78E45A98AABB /* Pods-PisthTests.beta.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_OBJC_WEAK = YES;

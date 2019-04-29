@@ -1,8 +1,9 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+
 
 target 'Pisth' do
 
+  platform :ios, '11.2'
   # ignore all warnings from all pods
   inhibit_all_warnings!
   
@@ -25,6 +26,7 @@ end
 
 target 'PisthTests' do
     
+  platform :ios, '11.2'
     # ignore all warnings from all pods
     inhibit_all_warnings!
     
